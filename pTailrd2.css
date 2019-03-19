@@ -1,9 +1,3 @@
-.header{
-    background-color: #AA9739;
-    padding: 30px;
-    text-align: center;
-    color: #76276c;
-}
 #navbar{
     overflow: hidden;
     background-color:#76276c ;
@@ -33,6 +27,12 @@
 }
 .sticky+.content{
     padding-top: 60px;
+}
+.header{
+    background-color: #AA9739;
+    padding: 30px;
+    text-align: center;
+    color: #76276c;
 }
 body{
     background-color: #AA9739;
