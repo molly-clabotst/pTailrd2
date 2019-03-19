@@ -1,0 +1,41 @@
+.header{
+    background-color: #AA9739;
+    padding: 30px;
+    text-align: center;
+    color: #76276c;
+}
+#navbar{
+    overflow: hidden;
+    background-color:#76276c ;
+    color: #AA9739;
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: #AA9739;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+#navbar a.hover{
+    background-color: #AA3939;
+}
+#navbara.active{
+    background-color: #AA3939;
+}
+.content{
+    padding: 16px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky+.content{
+    padding-top: 60px;
+}
+body{
+    background-color: #AA9739;
+    color: #AA3939;
+    font-weight: bold;
+}
