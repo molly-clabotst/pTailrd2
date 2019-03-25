@@ -1,41 +1,117 @@
-#navbar{
-    overflow: hidden;
-    background-color:#76276c ;
-    color: #AA9739;
+.header {
+    background-color: #AA9739;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
 }
-#navbar a{
+body {
+    background-color: #AA9739;
+    margin: 0;
+    font-size: 180%;
+    /*font-family: 'Bree Serif', serif;*/
+    /*font-family: 'Play', sans-serif;*/
+    /*font-family: 'Ropa Sans', sans-serif;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Roboto Mono', monospace;
+    /*font-family: 'Baloo Chettan', cursive;*/
+    text-align: center;
+    color: #76276c;
+}
+.c{
+    color: #76276c;
+    font-family: 'Bree Serif', serif;
+    /*font-family: 'Play', sans-serif;*/
+    /*font-family: 'Ropa Sans', sans-serif;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+    /*font-family: 'Roboto Mono', monospace;*/
+    /*font-family: 'Baloo Chettan', cursive;*/
+}
+#email{
+    text-decoration: none;
+    color: #76276c;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #76276c;
+    z-index: 9999!important;
+}
+
+#navbar a {
     float: left;
     display: block;
     color: #AA9739;
     text-align: center;
-    padding: 14px;
+    padding: 14px 2.5%;
     text-decoration: none;
+    font-size: 100%;
+    /*font-family: 'Bree Serif', serif;*/
+    font-family: 'Play', sans-serif;
+    /*font-family: 'Ropa Sans', sans-serif;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+    /*font-family: 'Roboto Mono', monospace;*/
+    /*font-family: 'Baloo Chettan', cursive;*/
 }
-#navbar a.hover{
+
+#navbar a:hover {
     background-color: #AA3939;
+    color: #AA9739;
 }
-#navbara.active{
+
+#navbar a.active {
     background-color: #AA3939;
+    color: #AA9739;
 }
-.content{
-    padding: 16px;
+
+.content {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
 }
-.sticky{
+
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-.sticky+.content{
+
+.sticky + .content {
     padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
-.header{
-    background-color: #AA9739;
-    padding: 30px;
-    text-align: center;
-    color: #76276c;
+#mySidenav a {
+    position: absolute;
+    left: -60px;
+    transition: 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    text-decoration: none;
+    background-color: #76276c;
+    font-size: 40px;
+    color: #AA9739;
+    border-radius: 0 5px 5px 0;
 }
-body{
-    background-color: #AA9739;
-    color: #AA3939;
-    font-weight: bold;
+
+#mySidenav a:hover {
+    left: 0;
+}
+#fb {
+    top: 46%;
+    background-color: #76276c;
+}
+
+#pin {
+    top: 59%;
+    background-color: #76276c;
+}
+
+#tum{
+    top: 72%;
+    background-color: #76276c;
+}
+
+#link {
+    top: 85%;
+    background-color: #76276c
 }
