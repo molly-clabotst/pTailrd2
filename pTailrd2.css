@@ -17,6 +17,36 @@ body {
     text-align: center;
     color: #76276c;
 }
+img{
+    border-radius: 8px;
+    max-width: 20%;
+}
+img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.sel-pic{
+    max-width: 10%;
+}
+.sel-pic:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+#s-space{
+    padding-bottom: 45%;
+}
+#a-space{
+    padding-bottom: 18%;
+}
+#about{
+    padding-bottom: 6%;
+}
+#c-space{
+    padding-bottom: 36.85%;
+}
+#b-logo{
+    padding-bottom: 10%;
+}
 .c{
     color: #76276c;
     font-family: 'Bree Serif', serif;
@@ -25,6 +55,14 @@ body {
     /*font-family: 'Ubuntu', sans-serif;*/
     /*font-family: 'Roboto Mono', monospace;*/
     /*font-family: 'Baloo Chettan', cursive;*/
+}
+.so-lnk{
+    color: #76276c;
+    text-decoration: none;
+    font-size: 150%;
+}
+.so-lnk:hover{
+    color: #AA3939;
 }
 #email{
     text-decoration: none;
@@ -35,7 +73,6 @@ body {
     background-color: #76276c;
     z-index: 9999!important;
 }
-
 #navbar a {
     float: left;
     display: block;
@@ -51,29 +88,24 @@ body {
     /*font-family: 'Roboto Mono', monospace;*/
     /*font-family: 'Baloo Chettan', cursive;*/
 }
-
 #navbar a:hover {
     background-color: #AA3939;
     color: #AA9739;
 }
-
 #navbar a.active {
     background-color: #AA3939;
     color: #AA9739;
 }
-
 .content {
     padding-left: 5%;
     padding-right: 5%;
     height: 100%;
 }
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-
 .sticky + .content {
     padding-top: 60px;
     padding-left: 80px;
@@ -81,37 +113,26 @@ body {
 }
 #mySidenav a {
     position: absolute;
-    left: -60px;
+    left: -100px;
     transition: 0.3s;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 80px;
+    width: 20%;
+    color: #AA9739;
     text-decoration: none;
     background-color: #76276c;
-    font-size: 40px;
-    color: #AA9739;
+    font-size: 100%;
     border-radius: 0 5px 5px 0;
+    z-index: 9999;
 }
-
 #mySidenav a:hover {
     left: 0;
 }
-#fb {
+#fleece {
     top: 46%;
     background-color: #76276c;
 }
-
-#pin {
+#stretch {
     top: 59%;
     background-color: #76276c;
-}
-
-#tum{
-    top: 72%;
-    background-color: #76276c;
-}
-
-#link {
-    top: 85%;
-    background-color: #76276c
 }

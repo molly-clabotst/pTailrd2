@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    $("#carouSel").carousel("pause");
+})
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
