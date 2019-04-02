@@ -102,6 +102,9 @@ color: #76276c;
 max-width: 50%;
 margin-left: 24%;
 }
+#carouSel:hover{
+    opacity: 1%;
+}
 #s-space{
 padding-bottom: 45%;
 }
@@ -116,6 +119,9 @@ padding-bottom: 36.85%;
 }
 #b-logo{
 padding-bottom: 10%;
+}
+.pOrder{
+
 }
 .c{
 color: #76276c;
