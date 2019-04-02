@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#carouSel").carousel("pause");
-})
+});
 
 window.onscroll = function() {myFunction()};
 
