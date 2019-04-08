@@ -95,8 +95,8 @@ opacity: 0.5;
 filter: alpha(opacity=50);
 }
 #email{
-text-decoration: none;
-color: #76276c;
+    text-decoration: #AA3939;
+    color: #76276c;
 }
 #carouSel{
 max-width: 50%;
@@ -121,7 +121,8 @@ padding-bottom: 36.85%;
 padding-bottom: 10%;
 }
 .pOrder{
-
+    text-decoration: #AA3939;
+    color: #76276c;
 }
 .c{
 color: #76276c;
