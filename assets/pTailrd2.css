@@ -48,11 +48,11 @@ color: #AA9739;
                             /*Side Nav*/
 #mySidenav a {
     position: absolute;
-    left: -100px;
+    left: -17%;
     transition: 0.3s;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 10%;
+    width: 20%;
     color: #AA9739;
     text-decoration: none;
     background-color: #76276c;
@@ -89,8 +89,9 @@ color: #76276c;
 img{
 border-radius: 8px;
 max-width: 20%;
+    max-height: 20%;
 }
-img:hover{
+.gPic:hover{
 opacity: 0.5;
 filter: alpha(opacity=50);
 }
