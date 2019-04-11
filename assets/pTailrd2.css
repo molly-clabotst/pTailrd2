@@ -8,24 +8,29 @@ text-align: center;
 }
                                 /*Top Nav*/
 #navbar {
-overflow: hidden;
-background-color: #76276c;
-z-index: 9999!important;
+    overflow: hidden;
+    background-color: #76276c;
+    z-index: 9999!important;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
 }
 #navbar a {
-float: left;
-display: block;
-color: #AA9739;
-text-align: center;
-padding: 14px 2.5%;
-text-decoration: none;
-font-size: 100%;
-/*font-family: 'Bree Serif', serif;*/
-font-family: 'Play', sans-serif;
-/*font-family: 'Ropa Sans', sans-serif;*/
-/*font-family: 'Ubuntu', sans-serif;*/
-/*font-family: 'Roboto Mono', monospace;*/
-/*font-family: 'Baloo Chettan', cursive;*/
+    float: left;
+    display: block;
+    color: #AA9739;
+    text-align: center;
+    padding: 14px 2.5%;
+    text-decoration: none;
+    font-size: 100%;
+    /*font-family: 'Bree Serif', serif;*/
+    font-family: 'Play', sans-serif;
+    /*font-family: 'Ropa Sans', sans-serif;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+    /*font-family: 'Roboto Mono', monospace;*/
+    /*font-family: 'Baloo Chettan', cursive;*/
+    width: 20%;
+    overflow: hidden;
 }
 #navbar a:hover {
 background-color: #AA3939;
